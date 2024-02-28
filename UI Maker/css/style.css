@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label
+{
+    margin: 0 20px;
+}
+input
+{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 6px;
+}
+#Pro-Detail div img{
+    height: 200px;
+}
+#Pro-Detail{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    margin-top: 50px;
+    text-align: center;
+}
+.title
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.price
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.delete
+{
+    padding: 5px;
+    margin-top: 20px;
+}
